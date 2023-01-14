@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  gap: 50px;
+  margin-bottom: 100px;
+  z-index: 10;
+}
+.modal {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.modal__bg {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.modal__content {
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  z-index: 10;
+}
+
+.staff_name {
+  font-size: 25px;
+  color: rgb(110, 57, 152);
+  margin-top: 10px;
+}
+.staff_name_kana {
+  font-family: poppins;
+  font-style: italic;
+  color: rgb(77, 41, 108);
+  margin-left: 5px;
+}
+.staff_profile {
+  width: 700px;
+  font-size: 15px;
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.6em;
+  margin-top: 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: rgb(58, 57, 57);
+  margin-bottom: 20px;
+}
+.staff_image {
+  width: 300px;
+}
+.js-modal-close {
+  text-decoration: none;
+  color: rgb(77, 41, 108);
+  font-size: 30px;
+}
