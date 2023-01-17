@@ -685,7 +685,7 @@ nav {
 /***********************original*************************/
 .original {
   height: 900px;
-  background-image: url(/images/title_bg.jpeg);
+  background-image: url(../images/title_bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80% 60%;
